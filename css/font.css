@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-style: normal;
+    src: local("Manrope"), 
+    url("../font/Manrope-Bold.woff2") format("woff2"),
+    url("../font/Manrope-Bold.woff") format("woff"),
+    url("../font/Manrope-Bold.eot") format("embedded-opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-style: normal;
+    src: local("Manrope"), 
+    url("../font/Manrope-ExtraBold.woff2") format("woff2"),
+    url("../font/Manrope-ExtraBold.woff") format("woff"),
+    url("../font/Manrope-ExtraBold.eot") format("embedded-opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-style: normal;
+    src: local("Manrope"), 
+    url("../font/Manrope-Medium.woff2") format("woff2"),
+    url("../font/Manrope-Medium.woff") format("woff"),
+    url("../font/Manrope-Medium.eot") format("embedded-opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-style: normal;
+    src: local("Manrope"), 
+    url("../font/Manrope-SemiBold.woff2") format("woff2"),
+    url("../font/Manrope-SemiBold.woff") format("woff"),
+    url("../font/Manrope-SemiBold.eot") format("embedded-opentype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-style: normal;
+    src: local("Roboto"), 
+    url("../font/Roboto-Medium.woff2") format("woff2"),
+    url("../font/Roboto-Medium.woff") format("woff"),
+    url("../font/Roboto-Medium.eot") format("embedded-opentype");
+    font-display: swap;
+}
+
+:root {
+	--secondary: #661ce7;
+	--primary: #ff6433;
+	--mint: #00d289;
+	--black: #1e1b1b;
+	--grey: #939191;
+	--light-grey: #f2f2f2;
+	--steelgrey: #e2e6e9;
+	--white: #fff;
+}
+
+:root {
+    --font-family: "Manrope", sans-serif;
+    --second-family: "Roboto", sans-serif;
+}
+
+
