@@ -650,10 +650,6 @@
     gap: 64px 32px;
 }
 
-.blog__list-item {
-    transition: all 1s;
-}
-
 .blog__list-item:active {
     transform: scale(1.05);
     transition: all .3s;
